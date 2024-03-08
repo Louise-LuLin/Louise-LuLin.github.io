@@ -1,5 +1,5 @@
 ---
-layout: profiles
+layout: page
 permalink: /group/
 title: Group
 description: members of the lab or group
