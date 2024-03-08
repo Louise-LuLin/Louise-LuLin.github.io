@@ -23,3 +23,5 @@ social: true # includes social icons at the bottom of the page
 - Trustworthiness (robustness, safety, fairness, generalization) of machine learning models (large language models, contrastive learning, graph learning etc.)
 - Machine learning explainability, and its reliability 
 - Data mining and data science in real-world applications
+
+:fire: **Openings for 2023-2024**: <span style="color:red"> I’m looking for highly motivated students, including PhDs (fully-funded), Masters, undergraduates, and interns to join my group. Please kindly read Open Position for more information before contact me. </span>
