@@ -3,9 +3,9 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Lu Lin
+first_name: Lu
 middle_name: 
-last_name: (林璐)
+last_name: Lin
 email: lxl5598@psu.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Faculty @ IST, PSU
