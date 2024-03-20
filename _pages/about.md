@@ -22,4 +22,4 @@ social: true # includes social icons at the bottom of the page
 * Machine learning interpretability and its fidelity
 * Data mining and data science in real-world applications
 
-:fire: **Openings for 2023-2024**: <span style="color:red"> I’m looking for highly motivated students, including PhDs (fully-funded), Masters, undergraduates, and interns to join my group. Please kindly read [Open Position](/_pages/position.md) for more information before contact me. </span>
+:fire: **Openings for 2023-2024**: <span style="color:red"> I’m looking for highly motivated students, including PhDs (fully-funded), Masters, undergraduates, and interns to join my group. Please kindly read [Open Position](/page/position/) for more information before contact me. </span>
