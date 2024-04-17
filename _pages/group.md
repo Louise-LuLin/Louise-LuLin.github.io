@@ -9,7 +9,7 @@ nav_order: 2
 If you are interested in joining my group, please check [Open Position](/position).
 
 <hr>
-<blockquote class="block-highlight"><h3 text-align="left">Current Students </h3></blockquote>
+<blockquote class="block-tip"><h3 text-align="left">Current Students </h3></blockquote>
 
 <h4><b>Ph.D. Students</b></h4>
 * Yurui Chang (2023 Fall - Present)
