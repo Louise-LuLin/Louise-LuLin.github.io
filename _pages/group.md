@@ -31,4 +31,4 @@ nav_order: 5
 * [Natalie Chow] () (Undergrad at PSU, 2022 Fall - 2023 Spring)
 * [Edward Wei](https://www.linkedin.com/in/wei-edward/) (Undergrad at UVa, 2022 Spring - 2023 Spring)
 * [Ethan Blaser](https://scholar.google.com/citations?user=fF7Ok0AAAAAJ&hl=en) (Undergrad at UVa, 2020 Spring - 2021 Fall; now a Ph.D. student at UVa)
-* [Weihao Song](https://www.linkedin.com/in/weihao-mike-song-1bb0b1101/) (Master at UVa, 2019 Spring - 2020 Spring; now at J.P. Morgan)
+* [Weihao Song](https://michaelweihaosong.github.io/) (Master at UVa, 2019 Spring - 2020 Spring; now at J.P. Morgan)
