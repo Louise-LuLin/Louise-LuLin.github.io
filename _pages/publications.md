@@ -7,7 +7,7 @@ nav: true
 nav_order: 2
 ---
 
-<u>underline</u> indicates students supervised. "*" denotes equal contribution.
+<u>underline</u> indicates students supervised. * denotes equal contribution.
 
 <!-- _pages/publications.md -->
 <div class="publications">
