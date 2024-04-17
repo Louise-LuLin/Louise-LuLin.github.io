@@ -4,7 +4,7 @@ permalink: /publications/
 title: Publications
 description: Full and up-to-date list is on <a href='https://scholar.google.com/citations?user=8N04pBgAAAAJ'>Google Scholar</a>.
 nav: true
-nav_order: 2
+nav_order: 3
 ---
 
 <u>underline</u> indicates students supervised. * denotes equal contribution.
