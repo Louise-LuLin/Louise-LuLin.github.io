@@ -4,7 +4,7 @@ permalink: /group/
 title: Group
 description: If you are interested in joining my group, please check [Open Position](/position).
 nav: true
-nav_order: 5
+nav_order: 2
 ---
 
 <h2 text-align="left"> Current Ph.D. Student </h2>
