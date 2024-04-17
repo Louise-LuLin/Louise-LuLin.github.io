@@ -2,22 +2,23 @@
 layout: page
 permalink: /group/
 title: Group
-description: If you are interested in joining my group, please check [Open Position](/position).
 nav: true
 nav_order: 2
 ---
 
+If you are interested in joining my group, please check [Open Position](/position).
+
 <hr>
 <h2 text-align="left"> Current Students </h2>
 
-<h3> **Ph.D. Students** </h3>
+<h3><b>Ph.D. Students</b></h3>
 * Yurui Chang (2023 Fall - Present)
 * Yaopei Zeng (2023 Fall - Present)
 
-<h3> **Master Students** </h3>
+<h3><b>Master Students</b></h3>
 * [Bohan Wang](https://www.linkedin.com/in/bohan-wang-44a3a31ba/) (Master at EPFL, 2023 Fall - Present)
 
-<h3> **Undergraduate Students** </h3>
+<h3><b>Undergraduate Students</b></h3>
 * [Wendi Wang]() (Undergrad at ZJU, 2023 Fall - Present)
 * [Harsh Maheshwari](https://www.linkedin.com/in/hmaheshwari18/) (Undergrad at PSU, 2024 Spring - Present)
 * [Tisya Vaidya](https://www.linkedin.com/in/tisya-vaidya/) (Undergrad at PSU, 2024 Spring - Present)
@@ -28,7 +29,7 @@ nav_order: 2
 <hr>
 <h2 text-align="left"> Alumni </h2>
 
-<h3> **Master Students** </h3>
+<h3><b>Master Students</b></h3>
 * [Weiyu Sun](https://swy666.github.io/index.html) (Master at NJU, 2022 Fall - 2024 Spring)
 * [Zengyi Wo](https://openreview.net/profile?id=~Zengyi_Wo1) (Master at TJU, 2023 Spring - 2023 Fall)
 * [Hongyi Du]() (Master at TJU, 2023 Spring - 2023 Fall)
@@ -36,7 +37,7 @@ nav_order: 2
 * [Yuanpu Cao](https://www.linkedin.com/in/yuanpu-cao-a392751b2/) (Master at NYU, 2022 Fall - 2023 Spring; now a Ph.D. student at PSU)
 * [Jiali Cheng](https://scholar.google.com/citations?user=-KzL1Y0AAAAJ&hl=en) (Master at NEU, 2022 Fall - 2023 Spring; now a Ph.D. student at UMass Lowell)
 
-<h3> **Undergraduate Students** </h3>
+<h3><b>Undergraduate Students</b></h3>
 * [Natalie Chow]() (Undergrad at PSU, 2022 Fall - 2023 Spring)
 * [Edward Wei](https://www.linkedin.com/in/wei-edward/) (Undergrad at UVa, 2022 Spring - 2023 Spring)
 * [Ethan Blaser](https://scholar.google.com/citations?user=fF7Ok0AAAAAJ&hl=en) (Undergrad at UVa, 2020 Spring - 2021 Fall; now a Ph.D. student at UVa)
