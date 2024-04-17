@@ -2,7 +2,7 @@
 layout: page
 permalink: /group/
 title: Group
-desc: If you are interested in joining my group, please check [Open Position](/position).
+description: If you are interested in joining my group, please check [Open Position](/position).
 nav: true
 nav_order: 5
 ---
