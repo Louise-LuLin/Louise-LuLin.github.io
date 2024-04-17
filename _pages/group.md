@@ -27,7 +27,7 @@ If you are interested in joining my group, please check [Open Position](/positio
 * [Peter Wu](https://www.linkedin.com/in/zhennan-wu/) (Undergrad at PSU, 2024 Spring - Present)
 
 <hr>
-<blockquote class="block-tip"><h3 text-align="left"> Alumni</h3></blockquote>
+<blockquote class="block-tip"><h3 text-align="left">Alumni</h3></blockquote>
 
 <h4><b>Master Students</b></h4>
 * [Weiyu Sun](https://swy666.github.io/index.html) (Master at NJU, 2022 Fall - 2024 Spring)
