@@ -2,13 +2,15 @@
 layout: page
 permalink: /position/
 title: Open Position
-description: information for prospective students
+description: I am always looking for highly motivated PhD/intern students to join my group. Please check the following information before contacting me.
 nav: true
 nav_order: 6
 ---
 
-### For Prospective PhD Students
-I am looking for PhD students who are passionate about research (machine leanring interpretability and trustworthiness), strong in independent thinking and communication, has good programming and math background. If you mention me in your program application, please also drop me an email so that I will not miss your application. Please read the following guideline to better demonstrate your purpose and strengths.  
+<hr>
+<blockquote class="block-tip"><h5 text-align="left">For Prospective PhD Students</h5></blockquote>
+
+Multiple fully-funded positions are available for PhD students who are passionate about ML research, strong in independent thinking and communication, has solid programming and math background. Please read the following guideline to better demonstrate your purpose and strengths.  
 <!--  -->
 {:align="justify"}
 
@@ -19,11 +21,12 @@ I am looking for PhD students who are passionate about research (machine leanrin
 * If you do not have any paper experience, a very effective way to impress me is to contact me early and work with me (see **For Interns**)
 * Attach your CV, transcript, and English test scores if available
 
-Multiple fully-funded PhD positions are available. Please mention my name in the application system when you apply to the graduate program at College of Information Science and Technology at Penn State University. The start dates of the positions are flexible, i.e., Spring or Fall semesters.
+To apply, please drop me an email and mention my name in the application system. The start dates of the positions are flexible, i.e., Spring or Fall semesters.
 
-### For Interns
+<hr>
+<blockquote class="block-tip"><h5 text-align="left">For Interns</h5></blockquote>
 
-I also welcome interns who have machine learning background and aim for research publications.
+I also welcome intern/graduate/undergraduate students who have solid machine learning background and aim for research publications.
 <!--  -->
 {:align="justify"}
 
@@ -31,4 +34,4 @@ I also welcome interns who have machine learning background and aim for research
 * Mail subject line as *[Prospective Intern] Your Name*
 * Briefly mention your education background, GPA/Rank, and prior research experience
 
-#### I will read every email, but unfortunately I cannot afford to reply all of them.
+<blockquote class="block-warning"><p text-align="left">I will read every email, but unfortunately I cannot afford to reply all of them.</p></blockquote>
