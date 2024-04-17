@@ -10,7 +10,11 @@ nav_order: 6
 <hr>
 <blockquote class="block-tip"><h5 text-align="left">For Prospective PhD Students</h5></blockquote>
 
-Multiple fully-funded positions are available for PhD students who are passionate about ML research, strong in independent thinking and communication, has solid programming and math background. Please read the following guideline to better demonstrate your purpose and strengths.  
+Multiple fully-funded positions are available for PhD students who are passionate about ML research, strong in independent thinking and communication, has solid programming and math background. 
+<!--  -->
+{:align="justify"}
+
+Please read the following guideline to better demonstrate your purpose and strengths.  
 <!--  -->
 {:align="justify"}
 
