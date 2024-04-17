@@ -80,10 +80,15 @@
             {{ author.last -}}
           </a>
         {%- else -%}
-          <em>
+          {%- if coauthor_url -%}
+            <em>
+              {{- author.first }}
+              {{ author.last -}}
+            </em>
+          {%- else -%}
             {{- author.first }}
             {{ author.last -}}
-          </em>
+          {%- endif -%}
         {%- endif -%}
       {% endfor %}
       {%- assign more_authors = author_array_size | minus: author_array_limit -%}
