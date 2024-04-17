@@ -4,7 +4,7 @@ permalink: /position/
 title: Open Position
 description: information for prospective students
 nav: true
-nav_order: 4
+nav_order: 6
 ---
 
 ### For Prospective PhD Students
