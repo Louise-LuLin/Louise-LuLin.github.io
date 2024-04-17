@@ -15,13 +15,13 @@ nav_order: 2
 <!-- <h1> preprints </h1> -->
 
 
-<h1 align="left"> Conference & Journal Papers </h1>
+<h1 text-align="left"> Conference & Journal Papers </h1>
 {% bibliography -f papers -q @*[category=conference]* %}
 
-<h1 align="left"> Preprints </h1>
+<h1 text-align="left"> Preprints </h1>
 {% bibliography -f papers -q @*[category=preprint]* %}
 
-<h1 align="left"> Workshop Papers </h1>
+<h1 text-align="left"> Workshop Papers </h1>
 {% bibliography -f papers -q @*[category=workshop]* %}
 
 </div>
