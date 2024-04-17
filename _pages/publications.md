@@ -14,14 +14,10 @@ nav_order: 3
 <!-- * denotes equal contribution -->
 <!-- <h1> preprints </h1> -->
 
-
-<h2 text-align="left"> Conference & Journal Papers </h2>
-{% bibliography -f papers -q @*[category=conference]* %}
-
-<h2 text-align="left"> Preprints </h2>
+<blockquote class="block-tip"><h3 text-align="left">Preprints</h3></blockquote>
 {% bibliography -f papers -q @*[category=preprint]* %}
 
-<h2 text-align="left"> Workshop Papers </h2>
-{% bibliography -f papers -q @*[category=workshop]* %}
+<blockquote class="block-tip"><h3 text-align="left">Conference & Journal Papers</h3></blockquote>
+{% bibliography -f papers -q @*[category=conference]* %}
 
 </div>
