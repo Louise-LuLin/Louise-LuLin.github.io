@@ -43,9 +43,7 @@ layout: default
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
       <hr>
-      <h2>
-        <a style="color: inherit">News</a>
-      </h2>
+      <blockquote class="block-highlight"><h5 text-align="left">News</h5></blockquote>
       {% include news.liquid limit=false %}
     {% endif %}
 
