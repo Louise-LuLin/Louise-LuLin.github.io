@@ -24,6 +24,7 @@ If you are interested in joining my group, please check [Open Position](/positio
 * [Tisya Vaidya](https://www.linkedin.com/in/tisya-vaidya/) (Undergrad at PSU, 2024 Spring - Present)
 * [Kanishka Chandrakar](https://www.linkedin.com/in/kanishka-chandrakar-6066bb262/) (Undergrad at PSU, 2024 Spring - Present)
 * [Skyler Hawkins](https://www.linkedin.com/in/skyler-hawkins-19b17b204/) (Undergrad at PSU, 2024 Spring - Present)
+* [Jinfan Yang]() (Undergrad at PSU, 2024 Spring - Present)
 * [Peter Wu](https://www.linkedin.com/in/zhennan-wu/) (Undergrad at PSU, 2024 Spring - Present)
 
 <hr>
