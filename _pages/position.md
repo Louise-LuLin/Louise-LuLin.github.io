@@ -21,7 +21,7 @@ Please read the following guideline to better demonstrate your purpose and stren
 * Send your application to Lu Lin (`lxl5598[at]psu[dot]edu`)
 * Mail subject line as *[Prospective Student - PhD] Your Name*
 * Briefly mention your education background, GPA/Rank, English test scores (especially speaking) if available
-* Briefly introduce your research experience, and it will make you stand out if you have publications at top-tier venues (e.g., ICML, NeurIPS, ICLR, KDD, WWW, AAAI etc)
+* Briefly introduce your research experience, and it will make you stand out if you have publications at top-tier venues (e.g., ICML, NeurIPS, ICLR; KDD, WWW; ACL, EMNLP etc)
 * If you do not have any paper experience, a very effective way to impress me is to contact me early and work with me (see **For Interns**)
 * Attach your CV, transcript, and English test scores if available
 
