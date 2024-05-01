@@ -12,8 +12,8 @@ If you are interested in joining my group, please check [Open Position](/positio
 <blockquote class="block-tip"><h3 text-align="left">Current Students</h3></blockquote>
 
 <h4><b>Ph.D. Students</b></h4>
-* Yurui Chang (2023 Fall - Present)
-* Yaopei Zeng (2023 Fall - Present)
+* [Yurui Chang]() (2023 Fall - Present)
+* [Yaopei Zeng]() (2023 Fall - Present)
 
 <h4><b>Master Students</b></h4>
 * [Bohan Wang](https://www.linkedin.com/in/bohan-wang-44a3a31ba/) (Master at EPFL, 2023 Fall - Present)
