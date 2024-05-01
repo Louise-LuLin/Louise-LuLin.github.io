@@ -39,7 +39,7 @@ If you are interested in joining my group, please check [Open Position](/positio
 * [Jiali Cheng](https://scholar.google.com/citations?user=-KzL1Y0AAAAJ&hl=en) (Master at NEU, 2022 Fall - 2023 Spring; now a Ph.D. student at UMass Lowell)
 
 <h4><b>Undergraduate Students</b></h4>
-* [Natalie Chow]() (Undergrad at PSU, 2022 Fall - 2023 Spring)
+* [Natalie Chow]() (Undergrad at PSU, 2023 Spring - 2023 Summer)
 * [Edward Wei](https://www.linkedin.com/in/wei-edward/) (Undergrad at UVa, 2022 Spring - 2023 Spring)
 * [Ethan Blaser](https://scholar.google.com/citations?user=fF7Ok0AAAAAJ&hl=en) (Undergrad at UVa, 2020 Spring - 2021 Fall; now a Ph.D. student at UVa)
 * [Weihao Song](https://michaelweihaosong.github.io/) (Undergrad at UVa, 2019 Spring - 2020 Spring; now at J.P. Morgan)
