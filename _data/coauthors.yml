@@ -1,3 +1,11 @@
+"du":
+  - firstname: ["Yongkang", "Yongkang*"]
+    url: https://yongkdu.github.io/
+
+"yang":
+  - firstname: ["Jiaxi", "Jiaxi*"]
+    url: https://abbottyanginchina.github.io/
+
 "chang":
   - firstname: ["Yurui", "Yurui*"]
     url: https://ist.psu.edu/directory/yjc5487
@@ -6,8 +14,16 @@
   - firstname: ["Yaopei", "Yaopei*"]
     url: https://openreview.net/profile?id=~Yaopei_Zeng1
 
+"wang":
+  - firstname: ["Bohan", "Bohan*"]
+    url: https://openreview.net/profile?id=~Bohan_Wang3
+
+"wang":
+  - firstname: ["Wendi", "Wendi*"]
+    url: https://scholar.google.com/citations?user=LMPPp9cAAAAJ&hl=zh-CN
+    
 "sun":
-  - firstname: ["Weiyu", "Weiyu"]
+  - firstname: ["Weiyu", "Weiyu*"]
     url: https://swy666.github.io/index.html
 
 "nian":
