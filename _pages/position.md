@@ -34,7 +34,7 @@ I also welcome intern/graduate/undergraduate students who have solid machine lea
 <!--  -->
 {:align="justify"}
 
-* Send your application to Lu Lin (`lulin[at]psu[dot]edu`)
+* Send your application to Lu Lin (`lxl5598[at]psu[dot]edu`)
 * Mail subject line as *[Prospective Intern] Your Name*
 * Briefly mention your education background, GPA/Rank, and prior research experience
 
