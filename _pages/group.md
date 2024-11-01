@@ -24,7 +24,7 @@ If you are interested in joining my group, please check [Open Position](/positio
 
 
 <hr>
-<blockquote class="block-tip"><h3 text-align="left">Alumni</h3></blockquote>
+<blockquote class="block-tip"><h3 text-align="left">Previous Students</h3></blockquote>
 
 <h4><b>Master Students</b></h4>
 * [Bohan Wang](https://www.linkedin.com/in/bohan-wang-44a3a31ba/) (Master at EPFL, 2023 Fall - 2024 Summer)
