@@ -14,6 +14,7 @@ If you are interested in joining my group, please check [Open Position](/positio
 <h4><b>Ph.D. Students</b></h4>
 * [Yongkang Du](https://yongkdu.github.io/) (2024 Fall - Present)
 * [Jiaxi Yang](https://abbottyanginchina.github.io/) (2024 Fall - Present)
+* [Xiaohan Zou](https://zxh.me/) (2024 Fall - Present, co-advised with Dr. George Kesidis)
 * [Yurui Chang]() (2023 Fall - Present)
 * [Yaopei Zeng]() (2023 Fall - Present)
 
