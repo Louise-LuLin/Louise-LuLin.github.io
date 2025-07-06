@@ -20,7 +20,8 @@ If you are interested in joining my group, please check [Open Position](/positio
 <hr>
 <blockquote class="block-tip"><h3 text-align="left">Previous Students</h3></blockquote>
 
-<h4><b>Master Students</b></h4>
+<h4><b>Graduate Students</b></h4>
+* [Jiaxi Yang](https://abbottyanginchina.github.io/) (PhD at PSU, 2024 Fall - 2025 Summer)
 * [Bohan Wang](https://www.linkedin.com/in/bohan-wang-44a3a31ba/) (Master at EPFL, 2023 Fall - 2024 Summer)
 * [Wendi Wang](https://scholar.google.com/citations?user=LMPPp9cAAAAJ&hl=zh-CN) (Undergrad at ZJU, 2023 Fall - 2024 Summer)
 * [Weiyu Sun](https://swy666.github.io/index.html) (Master at NJU, 2022 Fall - 2024 Spring; now a Ph.D. student at Georgia Tech)
