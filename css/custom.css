@@ -12,8 +12,8 @@
   --beige: #f4ede4;         /* sidebar background */
   --beige-dark: #e6d9c6;
   --text: #3b312d;
-  --font-body: Georgia, "Times New Roman", Times, serif;
-  --font-heading: Georgia, "Times New Roman", Times, serif;
+  --font-body: Georgia, serif;
+  --font-heading: Georgia, serif;
 }
 
 body {
