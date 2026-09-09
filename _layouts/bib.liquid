@@ -7,7 +7,7 @@ Renders one bibliography entry in the template's publication style:
   Venue in italics, (ABBR YEAR) in red, then [Paper] [Code] links.
 {%- endcomment -%}
 <div class="pub-entry" id="{{ entry.key }}">
-  <a class="pub-title"{% if entry.html %} href="{{ entry.html }}" target="_blank"{% endif %}><font color="blue">{{ entry.title }}</font></a><br>
+  <a class="pub-title"{% if entry.html %} href="{{ entry.html }}" target="_blank"{% endif %}><span class="c-link">{{ entry.title }}</span></a><br>
   <span class="pub-authors">
   {%- assign n = entry.author_array | size -%}
   {%- for author in entry.author_array -%}
@@ -33,7 +33,7 @@ Renders one bibliography entry in the template's publication style:
       {%- if forloop.last and n > 1 %} and {% else %}, {% endif -%}
     {%- endif -%}
     {%- if is_self -%}
-      <font color="black"><b>{{ first_clean }} {{ last_clean }}</b></font>{{ star }}
+      <span class="c-self"><b>{{ first_clean }} {{ last_clean }}</b></span>{{ star }}
     {%- elsif is_student -%}
       {%- if student_url and student_url != '' -%}<a href="{{ student_url }}" target="_blank"><u>{{ first_clean }} {{ last_clean }}</u></a>{%- else -%}<u>{{ first_clean }} {{ last_clean }}</u>{%- endif -%}{{ star }}
     {%- else -%}
@@ -47,7 +47,7 @@ Renders one bibliography entry in the template's publication style:
   {%- elsif proceedings contains entry.type -%}
     <em>{{ entry.booktitle }}</em>
   {%- endif -%}
-  {%- if entry.abbr %} (<font color="red">{{ entry.abbr }} {{ entry.year }}</font>){% endif %}
+  {%- if entry.abbr %} (<span class="c-accent">{{ entry.abbr }} {{ entry.year }}</span>){% endif %}
   {%- if entry.note %}, {{ entry.note }}{% endif %}
   <span class="pub-links">
     {%- if entry.html %} [<a href="{{ entry.html }}" target="_blank">Paper</a>]{% endif -%}

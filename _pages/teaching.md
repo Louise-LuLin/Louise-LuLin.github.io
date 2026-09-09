@@ -31,7 +31,7 @@ courses:
         <div class="panel-body">
           <div class="row">
             <div class="col-md-12">
-              <p>{% if c.url %}<a href="{{ c.url }}"><font color="blue">{{ c.name }}</font></a>{% else %}{{ c.name }}{% endif %}</p>
+              <p>{% if c.url %}<a href="{{ c.url }}"><span class="c-link">{{ c.name }}</span></a>{% else %}{{ c.name }}{% endif %}</p>
             </div>
           </div>
         </div>

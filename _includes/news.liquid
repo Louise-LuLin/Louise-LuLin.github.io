@@ -3,10 +3,10 @@ News list in the template style: "Mon YYYY: text", newest first, inside a scroll
 Items come from the _news collection (one markdown file per item, with a `date` in the front matter).
 {%- endcomment -%}
 <div class="news-box">
-  <font color="blue"><ul>
+  <span class="c-link"><ul>
   {%- assign news = site.news | sort: "date" | reverse -%}
   {%- for item in news %}
     <li>{{ item.date | date: "%b %Y" }}: {{ item.content | strip_html | strip }}</li>
   {%- endfor %}
-  </ul></font>
+  </ul></span>
 </div>

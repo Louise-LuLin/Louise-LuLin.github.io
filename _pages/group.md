@@ -6,7 +6,7 @@ permalink: /group/
 nav: true
 nav_order: 2
 ---
-<p>If you are interested in joining my group, please check <a href="{{ '/position/' | relative_url }}"><font color="blue">Open Position</font></a>.</p>
+<p>If you are interested in joining my group, please check <a href="{{ '/position/' | relative_url }}"><span class="c-link">Open Position</span></a>.</p>
 
 <h3 class="section-title">Current Students</h3>
 

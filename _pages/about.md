@@ -16,26 +16,26 @@ nav_order: 1
               <span class="heading-meta">About Me</span>
               <h2 class="colorlib-heading">Who Am I?</h2>
 
-              <p>Hi, I am an Assistant Professor in the <a href="https://ist.psu.edu/"><font color="blue">College of Information Sciences and Technology</font></a>
-                at <a href="https://www.psu.edu"><font color="blue">Pennsylvania State University</font></a>; I am also affiliated with the
-                <a href="https://www.icds.psu.edu/"><font color="blue">Institute for Computational and Data Sciences</font></a> and
-                <a href="https://ai.psu.edu/"><font color="blue">the Center for Socially Responsible AI</font></a>.
+              <p>Hi, I am an Assistant Professor in the <a href="https://ist.psu.edu/"><span class="c-link">College of Information Sciences and Technology</span></a>
+                at <a href="https://www.psu.edu"><span class="c-link">Pennsylvania State University</span></a>; I am also affiliated with the
+                <a href="https://www.icds.psu.edu/"><span class="c-link">Institute for Computational and Data Sciences</span></a> and
+                <a href="https://ai.psu.edu/"><span class="c-link">the Center for Socially Responsible AI</span></a>.
                 Prior to that, I received my Ph.D. in Computer Science from the University of Virginia, supervised by
-                Dr. <a href="https://www.cs.virginia.edu/~hw5x/"><font color="blue">Hongning Wang</font></a>.
+                Dr. <a href="https://www.cs.virginia.edu/~hw5x/"><span class="c-link">Hongning Wang</span></a>.
                 I have also interned at Didi Lab, LinkedIn and Pinterest Lab.
-                [<a href="{{ site.cv_pdf | relative_url }}"><font color="blue">Curriculum Vitae</font></a>]</p>
+                [<a href="{{ site.cv_pdf | relative_url }}"><span class="c-link">Curriculum Vitae</span></a>]</p>
 
-              <p style="font-weight:bold"><font color="blue">Research Interests</font></p>
+              <p style="font-weight:bold"><span class="c-link">Research Interests</span></p>
               <p>My research contributes to accountable machine learning, particularly through methods for improving robustness and
                 transparency under data imperfections and deployment mismatches. I'm particularly fascinated by transformative ML paradigms,
                 including large language models (LLMs), multimodal models, federated learning, self-supervised learning, graph neural networks and more.
                 By understanding and hardening their working mechanism, my research vision is to establish algorithmic foundations for
                 AI-enabled systems to work reliably in practical environments concerning biased, noisy, and out-of-distribution inputs.</p>
 
-              <p><font color="red">Openings: I'm looking for highly motivated students, including PhDs (fully-funded), Masters, undergraduates, and interns.
-                Please kindly read <a href="{{ '/position/' | relative_url }}"><font color="red"><u>Open Position</u></font></a> for more information before contacting me.</font></p>
+              <p><span class="c-accent">Openings: I'm looking for highly motivated students, including PhDs (fully-funded), Masters, undergraduates, and interns.
+                Please kindly read <a href="{{ '/position/' | relative_url }}" class="c-accent"><u>Open Position</u></a> for more information before contacting me.</span></p>
 
-              <p style="font-weight:bold"><font color="blue">News</font></p>
+              <p style="font-weight:bold"><span class="c-link">News</span></p>
               {% include news.liquid %}
             </div>
           </div>
