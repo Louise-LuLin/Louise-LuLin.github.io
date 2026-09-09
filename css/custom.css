@@ -1,17 +1,18 @@
 /* Site-specific overrides on top of the Colorlib "Aside" template (css/style.css).
-   Colour theme: purple + brown, sampled from the profile photo.
+   Colour theme: monochrome purple with cool grays (option A).
    Fonts: Georgia with a generic serif fallback. */
 
 :root {
   --purple: #8f2f8c;        /* primary accent: links, active nav, rules */
   --purple-dark: #5a1f58;   /* hover / emphasis */
   --purple-soft: #f3e6f2;   /* tints */
+  --lilac: #b07cc6;         /* light secondary accent: keyword lines, avatars */
   --plum: #342232;          /* deep plum for headings and author name */
-  --brown: #a3613e;         /* secondary accent: venue tags, section titles */
-  --brown-dark: #7c5b4b;
-  --tan: #bd9156;
-  --beige: #f4ede4;         /* sidebar background */
-  --beige-dark: #e6d9c6;
+  --brown: #6d6a75;         /* secondary accent (cool gray): venue tags, section titles */
+  --brown-dark: #7d7887;    /* secondary text */
+  --tan: #b07cc6;           /* tertiary accent, now lilac */
+  --beige: #f6f3f8;         /* sidebar background (light lavender-gray) */
+  --beige-dark: #e4dfe9;    /* borders and rings */
   --text: #3b312d;
   --font-body: Georgia, serif;
   --font-heading: Georgia, serif;
@@ -35,7 +36,7 @@ a:hover, a:active, a:focus { color: var(--purple-dark); }
   background: var(--beige);
   border-right: 1px solid var(--beige-dark);
   border-left: 6px solid var(--purple);
-  border-image: linear-gradient(to bottom, var(--purple) 0%, var(--purple) 55%, var(--brown) 100%) 1;
+  border-image: linear-gradient(to bottom, var(--purple) 0%, var(--lilac) 100%) 1;
   border-top: 0; border-bottom: 0;
   border-right-width: 0;
 }
@@ -45,8 +46,8 @@ a:hover, a:active, a:focus { color: var(--purple-dark); }
 #colorlib-aside #colorlib-main-menu ul li a { color: var(--text); }
 #colorlib-aside #colorlib-main-menu ul li.active a { color: var(--purple); }
 #colorlib-aside .colorlib-footer { color: var(--brown-dark); font-size: 13px; line-height: 1.6; }
-#colorlib-aside .colorlib-footer .credit { color: #a08f80; font-size: 11px; }
-#colorlib-aside .colorlib-footer .credit a { color: #a08f80; }
+#colorlib-aside .colorlib-footer .credit { color: #a39fab; font-size: 11px; }
+#colorlib-aside .colorlib-footer .credit a { color: #a39fab; }
 #colorlib-aside .author-img { box-shadow: 0 0 0 4px var(--beige-dark); }
 .colorlib-nav-toggle i, .colorlib-nav-toggle i::before, .colorlib-nav-toggle i::after { background: var(--plum); }
 
@@ -143,25 +144,25 @@ a:hover, a:active, a:focus { color: var(--purple-dark); }
   gap: 18px;
   padding: 1.2em 1.4em;
   margin-bottom: 1.2em;
-  background: #fdfbf8;
+  background: #fcfbfd;
   border: 1px solid var(--beige-dark);
   border-top: 3px solid var(--purple);
   border-radius: 3px;
 }
-.research-theme:nth-child(3) { border-top-color: var(--brown); }
-.research-theme:nth-child(4) { border-top-color: var(--tan); }
+.research-theme:nth-child(3) { border-top-color: var(--lilac); }
+.research-theme:nth-child(4) { border-top-color: var(--plum); }
 .research-num {
   flex: 0 0 auto;
   font-family: var(--font-heading);
   font-size: 34px;
   font-weight: 700;
   line-height: 1;
-  color: var(--beige-dark);
+  color: #d9cfe0;
   padding-top: 4px;
 }
 .research-body { flex: 1 1 auto; min-width: 0; }
 .research-body h3 { font-size: 20px; margin: 0 0 4px 0; }
-.research-tag { font-size: 13px; color: var(--brown); letter-spacing: 0.5px; margin-bottom: 0.7em; }
+.research-tag { font-size: 13px; color: var(--lilac); letter-spacing: 0.5px; margin-bottom: 0.7em; }
 .research-body p { margin-bottom: 0.8em; }
 .research-refs-label { display: block; font-size: 13px; font-weight: 700; color: var(--brown-dark); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 4px; }
 .research-refs ul.bibliography { margin: 0; padding-left: 1.2em; font-size: 15px; }
@@ -171,7 +172,7 @@ a:hover, a:active, a:focus { color: var(--purple-dark); }
 /* ---------- Home: news ---------- */
 .news-list { list-style: none; margin: 0 0 0.8em 0; padding: 0; }
 .news-list li { padding: 6px 0; border-bottom: 1px dotted var(--beige-dark); margin: 0; }
-.news-date { display: inline-block; min-width: 88px; color: var(--brown); font-weight: 700; }
+.news-date { display: inline-block; min-width: 88px; color: var(--purple); font-weight: 700; }
 .news-toggle { font-size: 14px; }
 
 /* ---------- Publications ---------- */
@@ -208,8 +209,8 @@ ol.bibliography > li { margin-bottom: 1.2em; }
 
 /* ---------- Openings note ---------- */
 .note-warning {
-  border-left: 4px solid var(--tan);
-  background: #faf5ee;
+  border-left: 4px solid var(--lilac);
+  background: var(--purple-soft);
   padding: 0.8em 1em;
   margin: 1.5em 0;
 }
@@ -240,11 +241,11 @@ ol.bibliography > li { margin-bottom: 1.2em; }
   color: #fff;
   background: var(--purple);
 }
-.person-initials[data-i="1"] { background: var(--brown); }
+.person-initials[data-i="1"] { background: var(--lilac); }
 .person-initials[data-i="2"] { background: var(--plum); }
-.person-initials[data-i="3"] { background: var(--tan); }
+.person-initials[data-i="3"] { background: var(--brown-dark); }
 .person-name { font-family: var(--font-heading); font-size: 17px; font-weight: 700; }
-.person-role { color: var(--brown); font-size: 14px; }
+.person-role { color: var(--purple); font-size: 14px; }
 .person-since { color: var(--brown-dark); font-size: 13px; line-height: 1.4; }
 .person-note { font-style: italic; }
 .alumni-list { margin-bottom: 1em; }
