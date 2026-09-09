@@ -1,6 +1,6 @@
 /* Site-specific overrides on top of the Colorlib "Aside" template (css/style.css).
    Colour theme: monochrome purple with cool grays (option A).
-   Fonts: Georgia with a generic serif fallback. */
+   Fonts: Lato (Google Fonts) with Helvetica/Arial fallback. */
 
 :root {
   --purple: #8f2f8c;        /* primary accent: links, active nav, rules */
@@ -14,13 +14,13 @@
   --beige: #f6f3f8;         /* sidebar background (light lavender-gray) */
   --beige-dark: #e4dfe9;    /* borders and rings */
   --text: #3b312d;
-  --font-body: Georgia, serif;
-  --font-heading: Georgia, serif;
+  --font-body: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-heading: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 body {
   font-family: var(--font-body);
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.7;
   color: var(--text);
 }
@@ -40,7 +40,7 @@ a:hover, a:active, a:focus { color: var(--purple-dark); }
   border-top: 0; border-bottom: 0;
   border-right-width: 0;
 }
-#colorlib-aside #colorlib-logo a { color: var(--plum); font-size: 26px; }
+#colorlib-aside #colorlib-logo a { color: var(--plum); font-size: 24px; }
 #colorlib-aside .position { color: var(--brown-dark); margin-bottom: 1em; }
 #colorlib-aside #colorlib-main-menu ul li { font-size: 13px; letter-spacing: 1.5px; }
 #colorlib-aside #colorlib-main-menu ul li a { color: var(--text); }
@@ -86,7 +86,7 @@ a:hover, a:active, a:focus { color: var(--purple-dark); }
 
 /* ---------- Section headings: left purple rule ---------- */
 .colorlib-heading {
-  font-size: 28px;
+  font-size: 26px;
   font-weight: 700;
   color: var(--plum);
   text-transform: none;
