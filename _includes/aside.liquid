@@ -1,0 +1,30 @@
+<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+  <div class="text-center">
+    <div class="author-img" style="background-image: url({{ site.profile_image | relative_url }});"></div>
+    <h1 id="colorlib-logo"><a href="{{ '/' | relative_url }}">{{ site.first_name }} {{ site.last_name }}</a></h1>
+    <span class="position">{{ site.position }}<br>
+      <a href="{{ site.affiliation_url }}"><font color="grey">{{ site.affiliation }}</font></a>
+    </span>
+  </div>
+
+  <nav id="colorlib-main-menu">
+    <div>
+      <ul>
+        {% assign nav_pages = site.pages | where: "nav", true | sort: "nav_order" %}
+        {% for p in nav_pages %}
+          <li{% if page.url == p.url %} class="active"{% endif %}><a href="{{ p.url | relative_url }}">{{ p.nav_title | default: p.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </nav>
+
+  <div class="colorlib-footer">
+    <p><small>
+      &copy; {{ site.time | date: "%Y" }} {{ site.first_name }} {{ site.last_name }}. All rights reserved.
+      <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+      This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+      <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+      <br><span>Last Update: {{ site.time | date: "%b %d, %Y" }}</span>
+    </small></p>
+  </div>
+</aside>

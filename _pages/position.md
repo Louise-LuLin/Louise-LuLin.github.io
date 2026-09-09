@@ -1,41 +1,37 @@
 ---
 layout: page
-permalink: /position/
 title: Open Position
-description: I am always looking for highly motivated PhD/intern students to join my group. Please check the following information before contacting me.
+heading_meta: Join Us
+permalink: /position/
 nav: true
-nav_order: 6
+nav_order: 5
+description: I am always looking for highly motivated PhD/intern students to join my group. Please check the following information before contacting me.
 ---
+<h3 class="section-title">For Prospective PhD Students</h3>
 
-<hr>
-<blockquote class="block-tip"><h5 text-align="left">For Prospective PhD Students</h5></blockquote>
+<p>Multiple fully-funded positions are available for PhD students who are passionate about ML research, strong in independent thinking and communication, and have a solid programming and math background.</p>
 
-Multiple fully-funded positions are available for PhD students who are passionate about ML research, strong in independent thinking and communication, has solid programming and math background. 
-<!--  -->
-{:align="justify"}
+<p>Please read the following guideline to better demonstrate your purpose and strengths.</p>
 
-Please read the following guideline to better demonstrate your purpose and strengths.  
-<!--  -->
-{:align="justify"}
+<ul>
+  <li>Send your application to Lu Lin (<code>lxl5598[at]psu[dot]edu</code>)</li>
+  <li>Mail subject line as <em>[Prospective Student - PhD] Your Name</em></li>
+  <li>Briefly mention your education background, GPA/Rank, English test scores (especially speaking) if available</li>
+  <li>Briefly introduce your research experience, and it will make you stand out if you have publications at top-tier venues (e.g., ICML, NeurIPS, ICLR; KDD, WWW; ACL, EMNLP; CVPR etc)</li>
+  <li>If you do not have any paper experience, a very effective way to impress me is to contact me early and work with me (see <strong>For Interns</strong>)</li>
+  <li>Attach your CV, transcript, and English test scores if available</li>
+</ul>
 
-* Send your application to Lu Lin (`lxl5598[at]psu[dot]edu`)
-* Mail subject line as *[Prospective Student - PhD] Your Name*
-* Briefly mention your education background, GPA/Rank, English test scores (especially speaking) if available
-* Briefly introduce your research experience, and it will make you stand out if you have publications at top-tier venues (e.g., ICML, NeurIPS, ICLR; KDD, WWW; ACL, EMNLP; CVPR etc)
-* If you do not have any paper experience, a very effective way to impress me is to contact me early and work with me (see **For Interns**)
-* Attach your CV, transcript, and English test scores if available
+<p>To apply, please drop me an email and mention my name in the application system. The start dates of the positions are flexible, i.e., Spring or Fall semesters.</p>
 
-To apply, please drop me an email and mention my name in the application system. The start dates of the positions are flexible, i.e., Spring or Fall semesters.
+<h3 class="section-title">For Interns</h3>
 
-<hr>
-<blockquote class="block-tip"><h5 text-align="left">For Interns</h5></blockquote>
+<p>I also welcome intern/graduate/undergraduate students who have solid machine learning background and aim for research publications.</p>
 
-I also welcome intern/graduate/undergraduate students who have solid machine learning background and aim for research publications.
-<!--  -->
-{:align="justify"}
+<ul>
+  <li>Send your application to Lu Lin (<code>lxl5598[at]psu[dot]edu</code>)</li>
+  <li>Mail subject line as <em>[Prospective Intern] Your Name</em></li>
+  <li>Briefly mention your education background, GPA/Rank, and prior research experience</li>
+</ul>
 
-* Send your application to Lu Lin (`lxl5598[at]psu[dot]edu`)
-* Mail subject line as *[Prospective Intern] Your Name*
-* Briefly mention your education background, GPA/Rank, and prior research experience
-
-<blockquote class="block-warning"><p text-align="left">I will read every email, but unfortunately I cannot afford to reply all of them.</p></blockquote>
+<div class="note-warning"><p>I will read every email, but unfortunately I cannot afford to reply to all of them.</p></div>
