@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Open Position
-heading_meta: Join Us
 permalink: /position/
 nav: true
 nav_order: 5

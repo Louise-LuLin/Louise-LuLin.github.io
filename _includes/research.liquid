@@ -1,0 +1,22 @@
+{%- comment -%} AIR Lab research overview, driven by _data/research.yml {%- endcomment -%}
+<div class="research-overview">
+  <p class="research-intro">{{ site.data.research.intro }}</p>
+  {% for t in site.data.research.themes %}
+  <div class="research-theme animate-box">
+    <div class="research-num">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</div>
+    <div class="research-body">
+      <h3>{{ t.title }}</h3>
+      <div class="research-tag">{{ t.tag }}</div>
+      <p>{{ t.text }}</p>
+      {% if t.refs %}
+      <div class="research-refs">
+        <span class="research-refs-label">Representative work</span>
+        {% assign q = '' %}
+        {% for k in t.refs %}{% capture q %}{{ q }}{% unless forloop.first %} {% endunless %}@*[key={{ k }}]{% endcapture %}{% endfor %}
+        {% bibliography -f papers -q {{ q }} -T bib_compact -g none -h ul %}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>

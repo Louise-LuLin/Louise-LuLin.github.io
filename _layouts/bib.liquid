@@ -6,7 +6,12 @@ Renders one bibliography entry in the template's publication style:
   Authors: supervised students underlined (listed in _data/coauthors.yml), Lu Lin in black
   Venue in italics, (ABBR YEAR) in red, then [Paper] [Code] links.
 {%- endcomment -%}
-<div class="pub-entry" id="{{ entry.key }}">
+{%- assign yr = entry.year | plus: 0 -%}
+{%- assign at_psu = false -%}
+{%- if entry.psu == 'true' or entry.psu == true -%}{%- assign at_psu = true -%}
+{%- elsif entry.psu == 'false' or entry.psu == false -%}{%- assign at_psu = false -%}
+{%- elsif yr >= 2023 -%}{%- assign at_psu = true -%}{%- endif -%}
+<div class="pub-entry" id="{{ entry.key }}" data-psu="{{ at_psu }}">
   <a class="pub-title"{% if entry.html %} href="{{ entry.html }}" target="_blank"{% endif %}><span class="c-link">{{ entry.title }}</span></a><br>
   <span class="pub-authors">
   {%- assign n = entry.author_array | size -%}

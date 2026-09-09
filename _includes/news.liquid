@@ -1,12 +1,15 @@
 {%- comment -%}
-News list in the template style: "Mon YYYY: text", newest first, inside a scrollable box.
-Items come from the _news collection (one markdown file per item, with a `date` in the front matter).
+News list: "Mon YYYY: text", newest first. The first `limit` items show by default; the rest
+are revealed by a "Show all news" toggle. Items come from the _news collection.
 {%- endcomment -%}
-<div class="news-box">
-  <span class="c-link"><ul>
-  {%- assign news = site.news | sort: "date" | reverse -%}
-  {%- for item in news %}
-    <li>{{ item.date | date: "%b %Y" }}: {{ item.content | strip_html | strip }}</li>
-  {%- endfor %}
-  </ul></span>
-</div>
+{%- assign limit = include.limit | default: 6 -%}
+{%- assign news = site.news | sort: "date" | reverse -%}
+<ul class="news-list">
+{%- for item in news %}
+  <li{% if forloop.index > limit %} class="news-more" hidden{% endif %}><span class="news-date">{{ item.date | date: "%b %Y" }}</span>{{ item.content | strip_html | strip }}</li>
+{%- endfor %}
+</ul>
+{%- assign total = news | size -%}
+{%- if total > limit %}
+<a href="#" class="news-toggle" data-more="Show all news ({{ total }})" data-less="Show fewer">Show all news ({{ total }})</a>
+{%- endif %}

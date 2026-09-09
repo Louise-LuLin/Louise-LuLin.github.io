@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Teaching
-heading_meta: My Duty
 permalink: /teaching/
 nav: true
 nav_order: 4

@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Contact
-heading_meta: Get in Touch
 permalink: /contact/
 nav: true
 nav_order: 6

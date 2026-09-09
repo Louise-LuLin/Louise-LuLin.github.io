@@ -1,0 +1,88 @@
+# Lab members. Put photos in assets/img/people/ and reference them with `photo:`;
+# members without a photo get an initials avatar automatically.
+current:
+  - name: Yongkang Du
+    role: Ph.D. Student
+    since: 2024 Fall
+    url: https://yongkdu.github.io/
+    photo:
+  - name: Xiaohan Zou
+    role: Ph.D. Student
+    since: 2024 Fall
+    note: co-advised with Dr. George Kesidis
+    url: https://zxh.me/
+    photo:
+  - name: Yurui Chang
+    role: Ph.D. Student
+    since: 2023 Fall
+    url: https://ist.psu.edu/directory/yjc5487
+    photo:
+  - name: Yaopei Zeng
+    role: Ph.D. Student
+    since: 2023 Fall
+    url: https://openreview.net/profile?id=~Yaopei_Zeng1
+    photo:
+
+alumni:
+  - group: Graduate Students
+    people:
+      - name: Jiaxi Yang
+        url: https://abbottyanginchina.github.io/
+        detail: PhD at PSU, 2024 Fall - 2025 Summer
+      - name: Bohan Wang
+        url: https://www.linkedin.com/in/bohan-wang-44a3a31ba/
+        detail: Master at EPFL, 2023 Fall - 2024 Summer
+      - name: Wendi Wang
+        url: https://scholar.google.com/citations?user=LMPPp9cAAAAJ&hl=zh-CN
+        detail: Undergrad at ZJU, 2023 Fall - 2024 Summer
+      - name: Weiyu Sun
+        url: https://swy666.github.io/index.html
+        detail: Master at NJU, 2022 Fall - 2024 Spring; now a Ph.D. student at Georgia Tech
+      - name: Zengyi Wo
+        url: https://openreview.net/profile?id=~Zengyi_Wo1
+        detail: Master at TJU, 2023 Spring - 2023 Fall
+      - name: Hongyi Du
+        detail: Master at TJU, 2023 Spring - 2023 Fall
+      - name: Yi Nian
+        url: https://www.linkedin.com/in/yi-n-1b98a1a5/
+        detail: Master at UChicago, 2022 Fall - 2023 Fall; now at Amazon
+      - name: Yuanpu Cao
+        url: https://www.linkedin.com/in/yuanpu-cao-a392751b2/
+        detail: Master at NYU, 2022 Fall - 2023 Spring; now a Ph.D. student at PSU
+      - name: Jiali Cheng
+        url: https://scholar.google.com/citations?user=-KzL1Y0AAAAJ&hl=en
+        detail: Master at NEU, 2022 Fall - 2023 Spring; now a Ph.D. student at UMass Lowell
+  - group: Undergraduate Students
+    people:
+      - name: Harsh Maheshwari
+        url: https://www.linkedin.com/in/hmaheshwari18/
+        detail: Undergrad at PSU, 2024 Spring - 2024 Fall
+      - name: Tisya Vaidya
+        url: https://www.linkedin.com/in/tisya-vaidya/
+        detail: Undergrad at PSU, 2024 Spring - 2024 Summer
+      - name: Kanishka Chandrakar
+        url: https://www.linkedin.com/in/kanishka-chandrakar-6066bb262/
+        detail: Undergrad at PSU, 2024 Spring - 2024 Summer
+      - name: Skyler Hawkins
+        url: https://www.linkedin.com/in/skyler-hawkins-19b17b204/
+        detail: Undergrad at PSU, 2024 Spring - 2024 Summer
+      - name: Jinfan Yang
+        detail: Undergrad at PSU, 2024 Spring - 2024 Summer
+      - name: Peter Wu
+        url: https://www.linkedin.com/in/zhennan-wu/
+        detail: Undergrad at PSU, 2024 Spring - 2024 Summer
+      - name: Natalie Chow
+        detail: Undergrad at PSU, 2023 Spring - 2023 Summer
+      - name: Edward Wei
+        url: https://www.linkedin.com/in/wei-edward/
+        detail: Undergrad at UVa, 2022 Spring - 2023 Spring
+      - name: Ethan Blaser
+        url: https://scholar.google.com/citations?user=fF7Ok0AAAAAJ&hl=en
+        detail: Undergrad at UVa, 2020 Spring - 2021 Fall; now a Ph.D. student at UVa
+      - name: Weihao Song
+        url: https://michaelweihaosong.github.io/
+        detail: Undergrad at UVa, 2019 Spring - 2020 Spring; now at J.P. Morgan
+  - group: High School Students
+    people:
+      - name: Viren Bankapur
+        detail: Independence High School, 2024 Spring - 2024 Fall

@@ -8,14 +8,15 @@ and the [Colorlib "Aside"](https://colorlib.com/wp/template/aside/) template (CC
 
 | What | Where |
 | --- | --- |
-| Bio, research interests, openings, research-area boxes | `_pages/about.md` |
+| Bio, research interests, openings | `_pages/about.md` |
+| Research themes on the home page (AIR Lab overview) | `_data/research.yml` (`refs` are citation keys from the bib) |
 | News (one file per item, newest shown first) | `_news/*.md` (`date:` in front matter, text in body) |
-| Publications | `_bibliography/papers.bib` (`category={preprint}` or `category={conference}`, `abbr`, `html`, `code`, `selected`) |
+| Publications | `_bibliography/papers.bib` (`category={preprint}` or `category={conference}`, `abbr`, `html`, `code`). Papers from 2023 on count as "At Penn State" in the filter; override with `psu={true}` / `psu={false}` |
 | Supervised students (underlined in publications) | `_data/coauthors.yml` |
-| Group members | `_pages/group.md` |
+| Lab members (cards with photos) and alumni | `_data/people.yml`; photos go in `assets/img/people/` |
 | Courses | `courses:` list in `_pages/teaching.md` |
 | Open positions | `_pages/position.md` |
-| Contact | `_pages/contact.md` and the social handles in `_config.yml` |
+| Contact page and sidebar social icons | `_pages/contact.md`, `_includes/aside.liquid`, handles in `_config.yml` |
 | Name, title, affiliation, photo, CV | `_config.yml` (`assets/img/prof_pic.jpg`, `assets/pdf/Lu_cv.pdf`) |
 | Look and feel | `css/custom.css` (site overrides), `css/style.css` (template) |
 

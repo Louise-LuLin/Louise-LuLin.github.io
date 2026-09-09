@@ -1,53 +1,46 @@
 ---
 layout: page
-title: Group
-heading_meta: Intelligent People
+title: AIR Lab
+nav_title: AIR Lab
 permalink: /group/
 nav: true
 nav_order: 2
 ---
-<p>If you are interested in joining my group, please check <a href="{{ '/position/' | relative_url }}"><span class="c-link">Open Position</span></a>.</p>
+<p>The <strong>AI Reliability (AIR) Lab</strong> at Penn State is led by <a href="{{ '/' | relative_url }}">Lu Lin</a>.
+We study when and why machine learning systems fail, and build methods that make them robust, safe and transparent.
+See our <a href="{{ '/#research' | relative_url }}">research themes</a> and <a href="{{ '/publications/' | relative_url }}">publications</a>.
+If you are interested in joining, please read <a href="{{ '/position/' | relative_url }}">Open Position</a> first.</p>
 
-<h3 class="section-title">Current Students</h3>
+<h3 class="section-title">Current Members</h3>
 
-<h4 class="sub-title">Ph.D. Students</h4>
-<ul>
-  <li><a href="https://yongkdu.github.io/" class="name">Yongkang Du</a> (2024 Fall - Present)</li>
-  <li><a href="https://zxh.me/" class="name">Xiaohan Zou</a> (2024 Fall - Present, co-advised with Dr. George Kesidis)</li>
-  <li><span class="name">Yurui Chang</span> (2023 Fall - Present)</li>
-  <li><span class="name">Yaopei Zeng</span> (2023 Fall - Present)</li>
+<div class="people-grid">
+  <div class="person-card person-pi">
+    <div class="person-photo" style="background-image:url({{ site.profile_image | relative_url }})"></div>
+    <div class="person-name"><a href="{{ '/' | relative_url }}">Lu Lin</a></div>
+    <div class="person-role">Principal Investigator</div>
+    <div class="person-since">{{ site.position }}</div>
+  </div>
+  {% for p in site.data.people.current %}
+  {% assign parts = p.name | split: ' ' %}
+  <div class="person-card">
+    {% if p.photo %}
+    <div class="person-photo" style="background-image:url({{ p.photo | prepend: '/assets/img/people/' | relative_url }})"></div>
+    {% else %}
+    <div class="person-photo person-initials" data-i="{{ forloop.index0 | modulo: 4 }}">{{ parts.first | slice: 0 }}{{ parts.last | slice: 0 }}</div>
+    {% endif %}
+    <div class="person-name">{% if p.url %}<a href="{{ p.url }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}</div>
+    <div class="person-role">{{ p.role }}</div>
+    <div class="person-since">{{ p.since }} &ndash; present{% if p.note %}<br><span class="person-note">{{ p.note }}</span>{% endif %}</div>
+  </div>
+  {% endfor %}
+</div>
+
+<h3 class="section-title">Alumni</h3>
+{% for g in site.data.people.alumni %}
+<h4 class="sub-title">{{ g.group }}</h4>
+<ul class="alumni-list">
+  {% for p in g.people %}
+  <li>{% if p.url %}<a href="{{ p.url }}" class="name">{{ p.name }}</a>{% else %}<span class="name">{{ p.name }}</span>{% endif %} ({{ p.detail }})</li>
+  {% endfor %}
 </ul>
-
-<h3 class="section-title">Previous Students</h3>
-
-<h4 class="sub-title">Graduate Students</h4>
-<ul>
-  <li><a href="https://abbottyanginchina.github.io/" class="name">Jiaxi Yang</a> (PhD at PSU, 2024 Fall - 2025 Summer)</li>
-  <li><a href="https://www.linkedin.com/in/bohan-wang-44a3a31ba/" class="name">Bohan Wang</a> (Master at EPFL, 2023 Fall - 2024 Summer)</li>
-  <li><a href="https://scholar.google.com/citations?user=LMPPp9cAAAAJ&hl=zh-CN" class="name">Wendi Wang</a> (Undergrad at ZJU, 2023 Fall - 2024 Summer)</li>
-  <li><a href="https://swy666.github.io/index.html" class="name">Weiyu Sun</a> (Master at NJU, 2022 Fall - 2024 Spring; now a Ph.D. student at Georgia Tech)</li>
-  <li><a href="https://openreview.net/profile?id=~Zengyi_Wo1" class="name">Zengyi Wo</a> (Master at TJU, 2023 Spring - 2023 Fall)</li>
-  <li><span class="name">Hongyi Du</span> (Master at TJU, 2023 Spring - 2023 Fall)</li>
-  <li><a href="https://www.linkedin.com/in/yi-n-1b98a1a5/" class="name">Yi Nian</a> (Master at UChicago, 2022 Fall - 2023 Fall; now at Amazon)</li>
-  <li><a href="https://www.linkedin.com/in/yuanpu-cao-a392751b2/" class="name">Yuanpu Cao</a> (Master at NYU, 2022 Fall - 2023 Spring; now a Ph.D. student at PSU)</li>
-  <li><a href="https://scholar.google.com/citations?user=-KzL1Y0AAAAJ&hl=en" class="name">Jiali Cheng</a> (Master at NEU, 2022 Fall - 2023 Spring; now a Ph.D. student at UMass Lowell)</li>
-</ul>
-
-<h4 class="sub-title">Undergraduate Students</h4>
-<ul>
-  <li><a href="https://www.linkedin.com/in/hmaheshwari18/" class="name">Harsh Maheshwari</a> (Undergrad at PSU, 2024 Spring - 2024 Fall)</li>
-  <li><a href="https://www.linkedin.com/in/tisya-vaidya/" class="name">Tisya Vaidya</a> (Undergrad at PSU, 2024 Spring - 2024 Summer)</li>
-  <li><a href="https://www.linkedin.com/in/kanishka-chandrakar-6066bb262/" class="name">Kanishka Chandrakar</a> (Undergrad at PSU, 2024 Spring - 2024 Summer)</li>
-  <li><a href="https://www.linkedin.com/in/skyler-hawkins-19b17b204/" class="name">Skyler Hawkins</a> (Undergrad at PSU, 2024 Spring - 2024 Summer)</li>
-  <li><span class="name">Jinfan Yang</span> (Undergrad at PSU, 2024 Spring - 2024 Summer)</li>
-  <li><a href="https://www.linkedin.com/in/zhennan-wu/" class="name">Peter Wu</a> (Undergrad at PSU, 2024 Spring - 2024 Summer)</li>
-  <li><span class="name">Natalie Chow</span> (Undergrad at PSU, 2023 Spring - 2023 Summer)</li>
-  <li><a href="https://www.linkedin.com/in/wei-edward/" class="name">Edward Wei</a> (Undergrad at UVa, 2022 Spring - 2023 Spring)</li>
-  <li><a href="https://scholar.google.com/citations?user=fF7Ok0AAAAAJ&hl=en" class="name">Ethan Blaser</a> (Undergrad at UVa, 2020 Spring - 2021 Fall; now a Ph.D. student at UVa)</li>
-  <li><a href="https://michaelweihaosong.github.io/" class="name">Weihao Song</a> (Undergrad at UVa, 2019 Spring - 2020 Spring; now at J.P. Morgan)</li>
-</ul>
-
-<h4 class="sub-title">High School Students</h4>
-<ul>
-  <li><span class="name">Viren Bankapur</span> (High School Student at Independence High School, 2024 Spring - 2024 Fall)</li>
-</ul>
+{% endfor %}

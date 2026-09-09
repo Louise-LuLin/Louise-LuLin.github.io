@@ -1,0 +1,36 @@
+# Research themes shown on the home page (AIR Lab overview).
+# Each `refs` entry is a citation key from _bibliography/papers.bib; the
+# title/venue are pulled from the bib automatically.
+lab_name: AIR Lab
+lab_full: AI Reliability Lab
+intro: >-
+  The <strong>AI Reliability (AIR) Lab</strong> at Penn State studies how modern machine learning
+  systems fail and how to make them dependable. We build methods for robustness, safety and
+  transparency under imperfect data and deployment mismatch, spanning foundation models, graphs,
+  and distributed learning.
+themes:
+  - title: Safety and Alignment of Foundation Models
+    tag: LLMs · VLMs · Diffusion
+    text: >-
+      We characterize how large language and multimodal models break, from jailbreaks and
+      alignment-breaking attacks to hallucination, distorted safety perception and social bias,
+      and design defenses and controls: robustly aligned decoding, personalized steering vectors,
+      factuality monitoring during generation, and prompt-level attribution that explains why a
+      model says what it says.
+    refs: [cao2024defending, cao2024personalized, chang2025monitoring, chang2025xprompt, zou2025understanding, du2025faircode]
+  - title: Robust and Interpretable Graph Learning
+    tag: GNNs · Self-supervision · Distribution shift
+    text: >-
+      Graphs encode structure that attackers can perturb and that shifts between training and
+      deployment. We take a spectral view of augmentation and attacks, learn representations that
+      are invariant and unbiased, explain graph models globally, and expose backdoor threats to
+      graph contrastive learning.
+    refs: [lin2023spectral, lin2021graph, nian2024globally, wang2021unbiased, wang2024mitigating, zhang2023graph]
+  - title: Secure Federated and Self-supervised Learning
+    tag: Federated learning · Backdoors · Generative models
+    text: >-
+      Learning from many parties and from unlabeled data widens the attack surface. We study
+      adaptive backdoor attacks on federated learning, communication-efficient adaptive optimizers
+      with guarantees, trigger optimization against self-supervised encoders, and adversarial and
+      protective mechanisms for image-to-image diffusion models.
+    refs: [zhang2023a3fl, wang2022communication, sun2024backdoor, zeng2025advi2i, zeng2025guarddoor]
