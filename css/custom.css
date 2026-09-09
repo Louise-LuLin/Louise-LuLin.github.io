@@ -1,6 +1,6 @@
 /* Site-specific overrides on top of the Colorlib "Aside" template (css/style.css).
    Colour theme: monochrome purple with cool grays (option A).
-   Fonts: Lato (Google Fonts) with Helvetica/Arial fallback. */
+   Fonts: Noto Sans + Noto Sans Symbols 2 (Google Fonts) with Helvetica/Arial fallback. */
 
 :root {
   --purple: #8f2f8c;        /* primary accent: links, active nav, rules */
@@ -14,8 +14,8 @@
   --beige: #f6f3f8;         /* sidebar background (light lavender-gray) */
   --beige-dark: #e4dfe9;    /* borders and rings */
   --text: #3b312d;
-  --font-body: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --font-heading: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-body: "Noto Sans", "Noto Sans Symbols 2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-heading: "Noto Sans", "Noto Sans Symbols 2", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 body {
