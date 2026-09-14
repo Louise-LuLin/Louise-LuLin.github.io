@@ -16,7 +16,7 @@ and the [Colorlib "Aside"](https://colorlib.com/wp/template/aside/) template (CC
 | Lab members (cards with photos) and alumni | `_data/people.yml`; photos go in `assets/img/people/` |
 | Courses | `courses:` list in `_pages/teaching.md` |
 | Open positions | `_pages/position.md` |
-| Contact page and sidebar social icons | `_pages/contact.md`, `_includes/aside.liquid`, handles in `_config.yml` |
+| Sidebar social icons | `_includes/aside.liquid`, handles in `_config.yml` |
 | Name, title, affiliation, photo, CV | `_config.yml` (`assets/img/prof_pic.jpg`, `assets/pdf/Lu_cv.pdf`) |
 | Look and feel | `css/custom.css` (site overrides), `css/style.css` (template) |
 

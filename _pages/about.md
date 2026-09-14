@@ -19,9 +19,7 @@ nav_order: 1
             I am also affiliated with the <a href="https://www.icds.psu.edu/">Institute for Computational and Data Sciences</a> and
             <a href="https://ai.psu.edu/">the Center for Socially Responsible AI</a>.
             Prior to that, I received my Ph.D. in Computer Science from the University of Virginia, supervised by
-            Dr. <a href="https://www.cs.virginia.edu/~hw5x/">Hongning Wang</a>.
-            I have also interned at Didi Lab, LinkedIn and Pinterest Lab.
-            [<a href="{{ site.cv_pdf | relative_url }}">Curriculum Vitae</a>]</p>
+            Dr. <a href="https://www.cs.virginia.edu/~hw5x/">Hongning Wang</a>.</p>
 
           <p>My research contributes to accountable machine learning, particularly through methods for improving robustness and
             transparency under data imperfections and deployment mismatches. I'm particularly fascinated by transformative ML paradigms,
@@ -29,8 +27,6 @@ nav_order: 1
             By understanding and hardening their working mechanism, my research vision is to establish algorithmic foundations for
             AI-enabled systems to work reliably in practical environments concerning biased, noisy, and out-of-distribution inputs.</p>
 
-          <div class="note-warning"><p><strong>Openings:</strong> I'm looking for highly motivated students, including PhDs (fully-funded), Masters, undergraduates, and interns.
-            Please kindly read <a href="{{ '/position/' | relative_url }}">Open Position</a> for more information before contacting me.</p></div>
         </div>
 
         <div id="research" class="animate-box">
