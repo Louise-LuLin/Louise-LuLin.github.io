@@ -80,7 +80,7 @@ a:hover, a:active, a:focus { color: var(--purple-dark); }
   letter-spacing: 1px;
 }
 
-/* ---------- Section headings ---------- */
+/* ---------- Section headings: short bar underneath ---------- */
 .colorlib-heading {
   font-size: 26px;
   font-weight: 700;
@@ -88,7 +88,20 @@ a:hover, a:active, a:focus { color: var(--purple-dark); }
   text-transform: none;
   letter-spacing: 0;
   line-height: 1.2;
+  position: relative;
+  padding-bottom: 14px;
   margin-bottom: 1.2em;
+}
+/* short accent bar beneath page headings */
+.colorlib-heading::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 64px;
+  height: 4px;
+  border-radius: 4px;
+  background: var(--purple);
 }
 @media screen and (max-width: 768px) { .colorlib-heading { font-size: 24px; margin-bottom: 1em; } }
 .heading-meta { display: none; }
@@ -114,8 +127,22 @@ a:hover, a:active, a:focus { color: var(--purple-dark); }
   font-size: 20px;
   font-weight: 700;
   color: var(--plum);
-  margin: 1.8em 0 0.8em 0;
+  margin: 1.8em 0 0.9em 0;
   line-height: 1.3;
+  position: relative;
+  padding-bottom: 10px;
+}
+/* smaller bar beneath sub-section titles */
+.page-content h3.section-title::after,
+.page-content p.section-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 40px;
+  height: 3px;
+  border-radius: 3px;
+  background: var(--lilac);
 }
 .page-content h4.sub-title {
   font-family: var(--font-heading);
