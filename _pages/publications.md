@@ -18,11 +18,10 @@ Full and up-to-date list is on <a href="https://scholar.google.com/citations?use
 <div class="publications">
 <div class="pub-section">
 <h3 class="section-title">Preprints</h3>
-{% bibliography -f papers -q @*[category=preprint]* %}
+{% bibliography -f papers -q @*[category=preprint]* -g none %}
 </div>
 
 <div class="pub-section">
-<h3 class="section-title">Conference &amp; Journal Papers</h3>
 {% bibliography -f papers -q @*[category=conference]* %}
 </div>
 </div>
