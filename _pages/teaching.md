@@ -17,6 +17,7 @@ courses:
   - term: Spring 2023
     name: "DS 310: Machine Learning for Data Analytics"
 ---
+
 <div class="fancy-collapse-panel">
   <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
     <div class="panel panel-default">

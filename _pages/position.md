@@ -6,6 +6,7 @@ nav: true
 nav_order: 5
 description: I am always looking for highly motivated PhD/intern students to join my group. Please check the following information before contacting me.
 ---
+
 <h3 class="section-title">For Prospective PhD Students</h3>
 
 <p>Multiple fully-funded positions are available for PhD students who are passionate about ML research, strong in independent thinking and communication, and have a solid programming and math background.</p>
