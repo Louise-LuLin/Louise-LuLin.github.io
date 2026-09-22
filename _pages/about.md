@@ -5,6 +5,7 @@ permalink: /
 nav: true
 nav_order: 1
 ---
+
 <section id="colorlib-home" data-section="home">
   <div class="colorlib-narrow-content">
     <div class="row">
@@ -43,5 +44,6 @@ nav_order: 1
         <p><br><br></p>
       </div>
     </div>
+
   </div>
 </section>

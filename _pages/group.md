@@ -6,6 +6,7 @@ permalink: /group/
 nav: true
 nav_order: 2
 ---
+
 <p>The <strong>AI Reliability (AIR) Lab</strong> at Penn State is led by <a href="{{ '/' | relative_url }}">Lu Lin</a>.
 We study when and why machine learning systems fail, and build methods that make them robust, safe and transparent.
 See our <a href="{{ '/#research' | relative_url }}">research themes</a> and <a href="{{ '/publications/' | relative_url }}">publications</a>.
