@@ -1,6 +1,10 @@
 # Lab members. Put photos in assets/img/people/ and reference them with `photo:`;
 # members without a photo get an initials avatar automatically.
 current:
+  - name: Zhongye Liu
+    role: Ph.D. Student
+    since: 2025 Fall
+    photo:
   - name: Yongkang Du
     role: Ph.D. Student
     since: 2024 Fall
