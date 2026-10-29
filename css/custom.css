@@ -473,7 +473,7 @@ ol.bibliography > li {
 }
 .person-row {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 20px;
   padding: 16px 0;
   border-bottom: 1px solid var(--beige-dark);
