@@ -467,6 +467,64 @@ ol.bibliography > li {
 .person-note {
   font-style: italic;
 }
+/* Ph.D. student rows: photo left, details right */
+.people-list {
+  margin: 0.5em 0 1.5em 0;
+}
+.person-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--beige-dark);
+}
+.person-row:last-child {
+  border-bottom: 0;
+}
+.person-row .person-photo {
+  width: 104px;
+  height: 104px;
+  flex: 0 0 104px;
+  margin: 0;
+}
+.person-row .person-initials {
+  font-size: 32px;
+}
+.person-body {
+  flex: 1;
+  min-width: 0;
+  text-align: left;
+}
+.person-body .person-name {
+  margin-bottom: 1px;
+}
+.person-cohort {
+  color: var(--purple);
+  font-size: 14px;
+}
+.person-edu,
+.person-research {
+  color: var(--brown-dark);
+  font-size: 14px;
+  line-height: 1.45;
+}
+.person-research {
+  margin-top: 3px;
+}
+.person-label {
+  font-weight: 700;
+  color: var(--brown);
+}
+@media screen and (max-width: 600px) {
+  .person-row {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .person-body {
+    text-align: center;
+  }
+}
 .alumni-list {
   margin-bottom: 1em;
 }
