@@ -10,9 +10,13 @@
   - firstname: ["Xiaohan", "Xiaohan*"]
     url: https://zxh.me/
 
+"liu":
+  - firstname: ["Zhongye", "Zhongye*"]
+    url: https://openreview.net/profile?id=~Zhongye_Liu1
+
 "chang":
   - firstname: ["Yurui", "Yurui*"]
-    url: https://ist.psu.edu/directory/yjc5487
+    url: https://yuruic.github.io/
 
 "zeng":
   - firstname: ["Yaopei", "Yaopei*"]
