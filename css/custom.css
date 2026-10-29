@@ -475,7 +475,7 @@ ol.bibliography > li {
   display: flex;
   align-items: flex-start;
   gap: 20px;
-  padding: 18px 0;
+  padding: 16px 0;
   border-bottom: 1px solid var(--beige-dark);
 }
 .person-row:last-child {
@@ -496,16 +496,20 @@ ol.bibliography > li {
   text-align: left;
 }
 .person-body .person-name {
-  margin-bottom: 2px;
+  margin-bottom: 1px;
 }
-.person-body .person-since {
-  color: var(--brown-dark);
-}
-.person-interests,
-.person-prior {
+.person-cohort {
+  color: var(--purple);
   font-size: 14px;
-  line-height: 1.5;
-  margin-top: 5px;
+}
+.person-edu,
+.person-research {
+  color: var(--brown-dark);
+  font-size: 14px;
+  line-height: 1.45;
+}
+.person-research {
+  margin-top: 3px;
 }
 .person-label {
   font-weight: 700;

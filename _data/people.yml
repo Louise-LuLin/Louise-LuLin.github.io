@@ -2,35 +2,39 @@
 # members without a photo get an initials avatar automatically.
 current:
   - name: Zhongye Liu
-    role: Ph.D. Student
     since: 2025 Fall
+    url: https://openreview.net/profile?id=~Zhongye_Liu1
     photo:
+    research: Multimodal LLM robustness, model routing, adversarial attacks
   - name: Yongkang Du
-    role: Ph.D. Student
     since: 2024 Fall
     url: https://yongkdu.github.io/
-    photo:
-    interests: Trustworthy machine learning, multimodal reasoning, agentic systems, and social bias in LLM code generation.
-    prior: B.E. in Computer Science, North China University of Technology; M.S. in Computer Science, University of Southern California.
+    photo: yongkang_du.jpg
+    bs: B.E., North China University of Technology
+    ms: M.S., University of Southern California
+    research: Trustworthy machine learning, multimodal reasoning, agentic systems
   - name: Xiaohan Zou
-    role: Ph.D. Student
     since: 2024 Fall
     note: co-advised with Dr. George Kesidis
     url: https://zxh.me/
-    photo:
-    interests: Reliability and safety of multimodal large language models, vision-language alignment, and continual learning.
+    photo: xiaohan_zou.jpg
+    bs: B.E., Tongji University
+    ms: M.S., Boston University
+    research: Multimodal LLM safety, vision-language alignment, continual learning
   - name: Yurui Chang
-    role: Ph.D. Student
     since: 2023 Fall
-    url: https://ist.psu.edu/directory/yjc5487
-    photo:
+    url: https://yuruic.github.io/
+    photo: yurui_chang.jpg
+    bs: B.S., Sichuan University
+    ms: M.S., University of Michigan, Ann Arbor
+    research: LLM interpretability, hallucination mitigation, agent memory
   - name: Yaopei Zeng
-    role: Ph.D. Student
     since: 2023 Fall
     url: https://openreview.net/profile?id=~Yaopei_Zeng1
     photo:
-    interests: LLM agents, multimodal generative AI, and trustworthy AI, with a focus on the security of diffusion models.
-    prior: B.E., Huazhong University of Science and Technology; M.S. in Computer and Information Engineering, CUHK-Shenzhen.
+    bs: B.E., Huazhong University of Science and Technology
+    ms: M.S., CUHK-Shenzhen
+    research: LLM agents, multimodal generative AI, trustworthy AI
 
 alumni:
   - group: Graduate Students
