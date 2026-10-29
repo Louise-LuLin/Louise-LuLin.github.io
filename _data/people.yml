@@ -10,12 +10,15 @@ current:
     since: 2024 Fall
     url: https://yongkdu.github.io/
     photo:
+    interests: Trustworthy machine learning, multimodal reasoning, agentic systems, and social bias in LLM code generation.
+    prior: B.E. in Computer Science, North China University of Technology; M.S. in Computer Science, University of Southern California.
   - name: Xiaohan Zou
     role: Ph.D. Student
     since: 2024 Fall
     note: co-advised with Dr. George Kesidis
     url: https://zxh.me/
     photo:
+    interests: Reliability and safety of multimodal large language models, vision-language alignment, and continual learning.
   - name: Yurui Chang
     role: Ph.D. Student
     since: 2023 Fall
@@ -26,6 +29,8 @@ current:
     since: 2023 Fall
     url: https://openreview.net/profile?id=~Yaopei_Zeng1
     photo:
+    interests: LLM agents, multimodal generative AI, and trustworthy AI, with a focus on the security of diffusion models.
+    prior: B.E., Huazhong University of Science and Technology; M.S. in Computer and Information Engineering, CUHK-Shenzhen.
 
 alumni:
   - group: Graduate Students
